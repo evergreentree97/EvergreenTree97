@@ -1,21 +1,20 @@
-<div align="center">
+<img src="./assets/profile-hero.png" width="100%" alt="도시를 바라보며 모바일 제품을 설계하는 개발자의 픽셀 아트">
 
-<h3>🏃‍♀️ Activity 🏃‍</h3>
+# Choi Sangrok
 
-[<img src="https://user-images.githubusercontent.com/70064912/192104232-022954a2-4cc7-4fe8-861e-5a83a1a49e30.png" width="50" height="50">](http://teamnexters.com/)
-[<img src="https://github.com/EvergreenTree97/EvergreenTree97/assets/70064912/86889f72-ae55-4239-8d85-26b81c07b984" width="50" height="50">](https://www.yapp.co.kr/)
-[<img src="https://github.com/EvergreenTree97/EvergreenTree97/assets/70064912/2ee945ae-0512-48ec-9699-fdc95d9525cf" width="50" height="50">](https://mash-up.kr/)
+Android Developer at **Levvels**
 
-<h3>🛠 Tech Stack 🛠</h3>
-<img src="https://img.shields.io/badge/Jetpack Compose-4285F4?style=flat-square&logo=Jetpack Compose&logoColor=white&color=000000"/></a>
-<img src="https://img.shields.io/badge/Android-11B48A?style=flat-square&logo=Android&logoColor=white&color=3DDC84"/></a>
-<img src="https://img.shields.io/badge/Java-11B48A?style=flat-square&logo=Java&logoColor=white&color=007396"/></a>
-<img src="https://img.shields.io/badge/Kotlin-11B48A?style=flat-square&logo=Kotlin&logoColor=white&color=7F52FF"/></a>
-<h3>🤝 Contact 🤝</h4>
-<a href = "https://velog.io/@evergreen_tree/">
-<img src="https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@evergreen_tree/"/></a>
+제품의 문제를 기준으로 기술과 구현 범위를 정합니다.<br>
+Android 앱은 설계부터 운영까지, 대화형 모델은 학습부터 평가까지 맡았습니다.
 
-<br><br>
+[Portfolio](https://evergreentree97.github.io) · [Tech Blog](https://velog.io/@evergreen_tree)
 
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=evergreentree97&show_icons=true&theme=gruvbox&locale=en" alt="evergreentree97" /></p>
-</div>
+<br>
+
+## Open source
+
+- [**EasyShimmerCompose**](https://github.com/evergreentree97/easy-shimmer-compose)<br>
+  Jetpack Compose의 로딩 상태에 Shimmer를 적용하는 경량 라이브러리
+
+- [**K-Humanizer**](https://github.com/evergreentree97/K-Humanizer)<br>
+  AI가 쓴 한국어의 번역투와 과한 격식을 문맥에 맞게 줄이는 Agent Skill
