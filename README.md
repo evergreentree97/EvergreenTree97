@@ -1,4 +1,6 @@
-<img src="./assets/profile-hero.png" width="100%" alt="도시를 바라보며 모바일 제품을 설계하는 개발자의 픽셀 아트">
+<p align="center">
+  <img src="./assets/profile-hero.png" width="720" alt="도시를 바라보며 모바일 제품을 설계하는 개발자의 픽셀 아트">
+</p>
 
 # Choi Sangrok
 
