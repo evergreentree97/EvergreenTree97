@@ -4,10 +4,12 @@
 
 # Choi Sangrok
 
-Android Developer at **Levvels**
+Android Developer / AI-Native Product Engineer
 
-제품의 문제를 기준으로 기술과 구현 범위를 정합니다.<br>
-앱은 상태 흐름으로, 모델은 실패 사례로 봅니다.
+**역할의 경계를 넘어, 아이디어를 제품까지 가져갑니다.**
+
+제품의 문제를 기준으로 기술과 구현 범위를 결정합니다.<br>
+Android 앱은 설계부터 출시 후 운영까지, LLM은 학습부터 평가와 적용 판단까지 맡았습니다.
 
 [Portfolio](https://evergreentree97.github.io) · [Tech Blog](https://velog.io/@evergreen_tree)
 
