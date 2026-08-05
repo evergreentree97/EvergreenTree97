@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-hero.png" width="720" alt="도시를 바라보며 모바일 제품을 설계하는 개발자의 픽셀 아트">
+  <img src="./assets/profile-hero.png" width="560" alt="도시를 바라보며 모바일 제품을 설계하는 개발자의 픽셀 아트">
 </p>
 
 # Choi Sangrok
@@ -7,16 +7,18 @@
 Android Developer at **Levvels**
 
 제품의 문제를 기준으로 기술과 구현 범위를 정합니다.<br>
-Android 앱은 설계부터 운영까지, 대화형 모델은 학습부터 평가까지 맡았습니다.
+앱은 상태 흐름으로, 모델은 실패 사례로 봅니다.
 
 [Portfolio](https://evergreentree97.github.io) · [Tech Blog](https://velog.io/@evergreen_tree)
 
 <br>
 
-## Open source
+<picture>
+  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/profile-signals-mobile-dark.svg">
+  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/profile-signals-mobile-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-signals-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-signals-light.svg">
+  <img src="./assets/profile-signals-light.svg" width="720" alt="관찰, 분리, 구현, 검증, 배포로 이어지는 개발 과정과 현재 오픈소스 활동">
+</picture>
 
-- [**EasyShimmerCompose**](https://github.com/evergreentree97/easy-shimmer-compose)<br>
-  Jetpack Compose의 로딩 상태에 Shimmer를 적용하는 경량 라이브러리
-
-- [**K-Humanizer**](https://github.com/evergreentree97/K-Humanizer)<br>
-  AI가 쓴 한국어의 번역투와 과한 격식을 문맥에 맞게 줄이는 Agent Skill
+[EasyShimmerCompose](https://github.com/evergreentree97/easy-shimmer-compose) · [K-Humanizer](https://github.com/evergreentree97/K-Humanizer)
