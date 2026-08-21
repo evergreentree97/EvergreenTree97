@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="./assets/hero.svg" width="720" alt="최상록 · Android Engineer. Compose 멀티모듈, 인증·플레이어·채팅·결제, LoRA SFT와 vLLM 서빙이 순환되는 배너">
+  <img src="./assets/hero.svg" width="720" alt="최상록 | Android Engineer. Compose 멀티모듈, 인증, 플레이어, 채팅, 결제, LoRA SFT와 vLLM 서빙이 순환되는 배너">
 </p>
 
 3년차 Android Engineer입니다. 신규 앱의 구조 설계부터 출시와 운영까지 맡아 왔으며,<br>
-Jetpack Compose 기반 멀티모듈 구조와 인증, 미디어 플레이어, 실시간 채팅, 결제처럼<br>
-여러 시스템이 맞물리는 기능을 개발했습니다.
+Jetpack Compose 기반 멀티모듈 구조와 인증, 미디어 플레이어, 실시간 채팅, 결제 등<br>
+핵심 기능의 설계와 구현을 담당했습니다.
 
-[Portfolio](https://evergreentree97.github.io) · [Tech Blog](https://velog.io/@evergreen_tree)
+[Portfolio](https://evergreentree97.github.io) | [Tech Blog](https://velog.io/@evergreen_tree)
 
 <br>
 
@@ -46,4 +46,4 @@ AI가 만든 결과는 작업 유형에 따라 검증합니다.
   <img src="./assets/profile-signals-light.svg" width="720" alt="관찰, 분리, 구현, 검증, 배포로 이어지는 개발 과정과 현재 오픈소스 활동">
 </picture>
 
-[EasyShimmerCompose](https://github.com/evergreentree97/easy-shimmer-compose) · [K-Humanizer](https://github.com/evergreentree97/K-Humanizer)
+[EasyShimmerCompose](https://github.com/evergreentree97/easy-shimmer-compose) | [K-Humanizer](https://github.com/evergreentree97/K-Humanizer)

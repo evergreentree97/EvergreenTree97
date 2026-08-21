@@ -41,16 +41,16 @@
   <g class="p1">
     <rect class="card" x="35" y="58" width="230" height="70" rx="10"/>
     <text class="title" x="55" y="84">MOMENTICA</text>
-    <text class="desc" x="55" y="106">포토카드 도감 · 영상 알람</text>
+    <text class="desc" x="55" y="106">포토카드 도감, 영상 알람</text>
   </g>
   <g class="p2">
     <rect class="card" x="295" y="58" width="230" height="70" rx="10"/>
     <text class="title" x="315" y="84">Vuddy</text>
-    <text class="desc" x="315" y="106">초기 구조 · 플레이어 · 채팅 · 운영</text>
+    <text class="desc" x="315" y="106">초기 구조, 플레이어, 채팅, 운영</text>
   </g>
   <g class="p3">
     <rect class="card" x="555" y="58" width="230" height="70" rx="10"/>
     <text class="title" x="575" y="84">AI TF → AI 캐릭터 앱</text>
-    <text class="desc" x="575" y="106">LoRA SFT · vLLM · SSE 채팅 · 결제</text>
+    <text class="desc" x="575" y="106">LoRA SFT, vLLM, SSE 채팅, 결제</text>
   </g>
 </svg>

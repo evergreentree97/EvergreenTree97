@@ -132,7 +132,7 @@ function render(theme) {
     '  <text class="value" x="24" y="193">' + escapeXml(displayName(topRepository)) + '</text>',
     '  <text class="value accent" x="208" y="193">' + topRepository.stargazers_count + ' stars</text>',
     '  <text class="meta" x="696" y="169" text-anchor="end">RECENT SIGNAL</text>',
-    '  <text class="value" x="696" y="193" text-anchor="end">' + escapeXml(displayName(recentRepository)) + ' · ' + recentDate + '</text>',
+    '  <text class="value" x="696" y="193" text-anchor="end">' + escapeXml(displayName(recentRepository)) + ', ' + recentDate + '</text>',
     '</svg>',
     '',
   ].join('\n')

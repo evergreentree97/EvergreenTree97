@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="820" height="200" viewBox="0 0 820 200" role="img" aria-label="최상록 · Android Engineer">
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="200" viewBox="0 0 820 200" role="img" aria-label="최상록, Android Engineer">
   <style>
     .bg { fill: #0d1117; }
     .name { font: 700 34px 'Segoe UI', 'Apple SD Gothic Neo', sans-serif; fill: #e6edf3; }
@@ -31,9 +31,9 @@
   <text class="name" x="40" y="70">최상록 <tspan fill="#8b949e" font-size="22">Sangrok Choi</tspan></text>
 
   <g class="type">
-    <text class="line line1" x="40" y="118">Android Engineer · Jetpack Compose · Multi-module</text>
-    <text class="line line2" x="40" y="118">인증 · 미디어 플레이어 · 실시간 채팅 · 결제</text>
-    <text class="line line3" x="40" y="118">LoRA SFT · vLLM Serving · Agent Workflow</text>
+    <text class="line line1" x="40" y="118">Android Engineer, Jetpack Compose, Multi-module</text>
+    <text class="line line2" x="40" y="118">인증, 미디어 플레이어, 실시간 채팅, 결제</text>
+    <text class="line line3" x="40" y="118">LoRA SFT, vLLM Serving, Agent Workflow</text>
     <text class="cursor" x="40" y="146">▌</text>
   </g>
 
