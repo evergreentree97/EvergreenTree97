@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="150" viewBox="0 0 820 150" role="img" aria-label="Career journey">
+  <style>
+    .bg { fill: #0d1117; }
+    .card { fill: #161b22; stroke: #30363d; rx: 10; }
+    .title { font: 700 16px 'Segoe UI', 'Apple SD Gothic Neo', sans-serif; fill: #e6edf3; }
+    .desc { font: 400 13px 'Segoe UI', 'Apple SD Gothic Neo', sans-serif; fill: #8b949e; }
+    .dot { fill: #58a6ff; }
+    .track { stroke: #30363d; stroke-width: 2; }
+    .runner {
+      fill: #7ee787;
+      animation: run 9s linear infinite;
+    }
+    @keyframes run {
+      0%   { transform: translateX(0px); }
+      45%  { transform: translateX(310px); }
+      55%  { transform: translateX(310px); }
+      100% { transform: translateX(620px); }
+    }
+    .pop { opacity: 0.35; animation: pop 9s linear infinite; }
+    .pop2 { animation-delay: 0s; }
+    @keyframes pop {
+      0%, 10% { opacity: 1; } 40% { opacity: 0.35; } 100% { opacity: 0.35; }
+    }
+    .p1 { animation: glow 9s linear infinite; }
+    .p2 { animation: glow 9s linear infinite; animation-delay: -6s; }
+    .p3 { animation: glow 9s linear infinite; animation-delay: -3s; }
+    @keyframes glow {
+      0%, 25% { opacity: 1; }
+      35%, 100% { opacity: 0.4; }
+    }
+  </style>
+
+  <rect class="bg" width="820" height="150" rx="12"/>
+
+  <line class="track" x1="90" y1="34" x2="730" y2="34"/>
+  <circle class="dot" cx="90" cy="34" r="5"/>
+  <circle class="dot" cx="400" cy="34" r="5"/>
+  <circle class="dot" cx="710" cy="34" r="5"/>
+  <circle class="runner" cx="90" cy="34" r="7"/>
+
+  <g class="p1">
+    <rect class="card" x="35" y="58" width="230" height="70" rx="10"/>
+    <text class="title" x="55" y="84">MOMENTICA</text>
+    <text class="desc" x="55" y="106">포토카드 도감 · 영상 알람</text>
+  </g>
+  <g class="p2">
+    <rect class="card" x="295" y="58" width="230" height="70" rx="10"/>
+    <text class="title" x="315" y="84">Vuddy</text>
+    <text class="desc" x="315" y="106">초기 구조 · 플레이어 · 채팅 · 운영</text>
+  </g>
+  <g class="p3">
+    <rect class="card" x="555" y="58" width="230" height="70" rx="10"/>
+    <text class="title" x="575" y="84">AI TF → AI 캐릭터 앱</text>
+    <text class="desc" x="575" y="106">LoRA SFT · vLLM · SSE 채팅 · 결제</text>
+  </g>
+</svg>

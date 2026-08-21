@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="200" viewBox="0 0 820 200" role="img" aria-label="최상록 · Android Engineer">
+  <style>
+    .bg { fill: #0d1117; }
+    .name { font: 700 34px 'Segoe UI', 'Apple SD Gothic Neo', sans-serif; fill: #e6edf3; }
+    .type {
+      font: 500 20px 'SFMono-Regular', 'Fira Code', monospace;
+      fill: #7ee787;
+    }
+    .cursor {
+      font: 500 20px monospace; fill: #7ee787;
+      animation: blink 1s step-end infinite;
+    }
+    .sub { font: 400 15px 'Segoe UI', 'Apple SD Gothic Neo', sans-serif; fill: #8b949e; }
+    @keyframes blink { 50% { opacity: 0; } }
+
+    .line { opacity: 0; animation: cycle 12s infinite; }
+    .line2 { animation-delay: 4s; }
+    .line3 { animation-delay: 8s; }
+    @keyframes cycle {
+      0%   { opacity: 0; }
+      4%   { opacity: 1; }
+      30%  { opacity: 1; }
+      34%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+  </style>
+
+  <rect class="bg" width="820" height="200" rx="12"/>
+
+  <text class="name" x="40" y="70">최상록 <tspan fill="#8b949e" font-size="22">Sangrok Choi</tspan></text>
+
+  <g class="type">
+    <text class="line line1" x="40" y="118">Android Engineer · Jetpack Compose · Multi-module</text>
+    <text class="line line2" x="40" y="118">인증 · 미디어 플레이어 · 실시간 채팅 · 결제</text>
+    <text class="line line3" x="40" y="118">LoRA SFT · vLLM Serving · Agent Workflow</text>
+    <text class="cursor" x="40" y="146">▌</text>
+  </g>
+
+  <text class="sub" x="40" y="176">신규 앱의 구조 설계부터 출시와 운영까지</text>
+</svg>
