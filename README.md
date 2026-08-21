@@ -19,14 +19,4 @@ Claude Code와 Codex, 역할별 에이전트를 업무 전반에 활용하고,
 반복 절차는 [K-Humanizer](https://github.com/evergreentree97/K-Humanizer) 같은 Agent Skill로 만들어 재사용합니다.
 AI가 만든 결과는 코드 리뷰와 자동 테스트, 실제 기기 확인, 휴먼 리뷰로 검증합니다.
 
-<br>
-
-<picture>
-  <source media="(max-width: 600px) and (prefers-color-scheme: dark)" srcset="./assets/profile-signals-mobile-dark.svg">
-  <source media="(max-width: 600px) and (prefers-color-scheme: light)" srcset="./assets/profile-signals-mobile-light.svg">
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-signals-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-signals-light.svg">
-  <img src="./assets/profile-signals-light.svg" width="720" alt="관찰, 분리, 구현, 검증, 배포로 이어지는 개발 과정과 현재 오픈소스 활동">
-</picture>
-
 [EasyShimmerCompose](https://github.com/evergreentree97/easy-shimmer-compose) | [K-Humanizer](https://github.com/evergreentree97/K-Humanizer)
