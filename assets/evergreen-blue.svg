@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="220" viewBox="0 0 820 220" role="img" aria-labelledby="title description">
+  <title id="title">evergreen, 최상록</title>
+  <desc id="description">A blue lowercase e, drawn as an open curve and a crossbar, settles into alignment beside the evergreen wordmark. Lettering is outlined from SUIT SemiBold. Reduced motion shows the finished mark.</desc>
+  <metadata><![CDATA[Wordmark: SUIT SemiBold, weight 600, 88px; tracking -0.014em.
+Font source: https://github.com/sun-typeface/SUIT/blob/main/fonts/static/ttf/SUIT-SemiBold.ttf
+Font blob SHA: 30e3d23d5af8cac3d04a9961e7e0585b2acbd247
+The font is used to create outlined lettering; no font runtime is loaded.
+Copyright (c) 2022, SUNN (http://sun.fo/suit),
+with Reserved Font Name SUIT.
+
+This Font Software is licensed under the SIL Open Font License, Version 1.1.
+This license is copied below, and is also available with a FAQ at:
+https://scripts.sil.org/OFL
+
+
+-----------------------------------------------------------
+SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007
+-----------------------------------------------------------
+
+PREAMBLE
+The goals of the Open Font License (OFL) are to stimulate worldwide
+development of collaborative font projects, to support the font creation
+efforts of academic and linguistic communities, and to provide a free and
+open framework in which fonts may be shared and improved in partnership
+with others.
+
+The OFL allows the licensed fonts to be used, studied, modified and
+redistributed freely as long as they are not sold by themselves. The
+fonts, including any derivative works, can be bundled, embedded, 
+redistributed and/or sold with any software provided that any reserved
+names are not used by derivative works. The fonts and derivatives,
+however, cannot be released under any other type of license. The
+requirement for fonts to remain under this license does not apply
+to any document created using the fonts or their derivatives.
+
+DEFINITIONS
+"Font Software" refers to the set of files released by the Copyright
+Holder(s) under this license and clearly marked as such. This may
+include source files, build scripts and documentation.
+
+"Reserved Font Name" refers to any names specified as such after the
+copyright statement(s).
+
+"Original Version" refers to the collection of Font Software components as
+distributed by the Copyright Holder(s).
+
+"Modified Version" refers to any derivative made by adding to, deleting,
+or substituting -- in part or in whole -- any of the components of the
+Original Version, by changing formats or by porting the Font Software to a
+new environment.
+
+"Author" refers to any designer, engineer, programmer, technical
+writer or other person who contributed to the Font Software.
+
+PERMISSION & CONDITIONS
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of the Font Software, to use, study, copy, merge, embed, modify,
+redistribute, and sell modified and unmodified copies of the Font
+Software, subject to the following conditions:
+
+1) Neither the Font Software nor any of its individual components,
+in Original or Modified Versions, may be sold by itself.
+
+2) Original or Modified Versions of the Font Software may be bundled,
+redistributed and/or sold with any software, provided that each copy
+contains the above copyright notice and this license. These can be
+included either as stand-alone text files, human-readable headers or
+in the appropriate machine-readable metadata fields within text or
+binary files as long as those fields can be easily viewed by the user.
+
+3) No Modified Version of the Font Software may use the Reserved Font
+Name(s) unless explicit written permission is granted by the corresponding
+Copyright Holder. This restriction only applies to the primary font name as
+presented to the users.
+
+4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font
+Software shall not be used to promote, endorse or advertise any
+Modified Version, except to acknowledge the contribution(s) of the
+Copyright Holder(s) and the Author(s) or with their explicit written
+permission.
+
+5) The Font Software, modified or unmodified, in part or in whole,
+must be distributed entirely under this license, and must not be
+distributed under any other license. The requirement for fonts to
+remain under this license does not apply to any document created
+using the Font Software.
+
+TERMINATION
+This license becomes null and void if any of the above conditions are
+not met.
+
+DISCLAIMER
+THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
+OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
+COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
+INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL
+DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM
+OTHER DEALINGS IN THE FONT SOFTWARE.
+]]></metadata>
+  <style>
+    .surface { fill: #f9fafb; }
+    .lettering { fill: #191f28; }
+    .symbol { fill: none; stroke: #3182f6; stroke-width: 22; stroke-linecap: round; stroke-linejoin: round; }
+    .curve { animation: curve-settle 1100ms cubic-bezier(.22, 1, .36, 1) both; }
+    .crossbar { animation: bar-settle 1000ms cubic-bezier(.22, 1, .36, 1) 90ms both; }
+    @keyframes curve-settle {
+      0% { transform: translate(-8px, 8px) rotate(-18deg); }
+      65% { transform: translate(0, -1px) rotate(1deg); }
+      100% { transform: translate(0, 0) rotate(0); }
+    }
+    @keyframes bar-settle {
+      0% { transform: translate(28px, -8px) rotate(14deg); }
+      65% { transform: translate(-1px, 0) rotate(-.5deg); }
+      100% { transform: translate(0, 0) rotate(0); }
+    }
+    @media (prefers-color-scheme: dark) {
+      .surface { fill: #11161f; }
+      .lettering { fill: #f2f4f6; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .curve, .crossbar { animation: none; }
+    }
+  </style>
+  <rect class="surface" width="820" height="220" rx="12"/>
+  <g transform="translate(189.284 110) scale(.8)">
+    <g class="symbol">
+      <g class="curve"><path d="M38 36 C14 58-24 51-41 27 C-58 2-47-29-22-43 C5-59 42-44 50-17"/></g>
+      <g class="crossbar"><path d="M-40 0H49"/></g>
+    </g>
+  </g>
+  <g class="lettering" aria-hidden="true" transform="translate(281.284 121.046) scale(0.088 -0.088)">
+    <path transform="translate(0 0)" d="M55 228Q55 297 84.0 351.0Q113 405 164.5 435.5Q216 466 282 466Q347 466 390.0 439.0Q433 412 452.5 383.0Q472 354 477 338Q498 287 498 225Q498 211 497.0 202.5Q496 194 496 190H150Q159 139 196.5 106.0Q234 73 282 73Q337 73 366.5 94.5Q396 116 408 137L483 101Q463 56 411.5 23.5Q360 -9 282 -9Q216 -9 164.5 21.0Q113 51 84.0 105.0Q55 159 55 228ZM282 384Q232 384 195.5 351.5Q159 319 150 267H406Q399 320 369.0 352.0Q339 384 282 384Z"/><path transform="translate(542 0)" d="M327 -6H243L45 466H149L285 122L421 466H525Z"/><path transform="translate(1098 0)" d="M55 228Q55 297 84.0 351.0Q113 405 164.5 435.5Q216 466 282 466Q347 466 390.0 439.0Q433 412 452.5 383.0Q472 354 477 338Q498 287 498 225Q498 211 497.0 202.5Q496 194 496 190H150Q159 139 196.5 106.0Q234 73 282 73Q337 73 366.5 94.5Q396 116 408 137L483 101Q463 56 411.5 23.5Q360 -9 282 -9Q216 -9 164.5 21.0Q113 51 84.0 105.0Q55 159 55 228ZM282 384Q232 384 195.5 351.5Q159 319 150 267H406Q399 320 369.0 352.0Q339 384 282 384Z"/><path transform="translate(1640 0)" d="M69 466H164V392Q188 428 229.5 449.0Q271 470 315 469V380Q274 381 239.0 360.5Q204 340 184.0 305.0Q164 270 164 231V-6H69Z"/><path transform="translate(1982 0)" d="M420 228Q420 270 402.0 305.5Q384 341 352.5 362.5Q321 384 283 384Q224 384 187.0 341.0Q150 298 150 228Q150 158 187.0 115.0Q224 72 283 72Q321 72 352.5 93.0Q384 114 402.0 149.5Q420 185 420 228ZM281 -218Q220 -218 168.0 -191.0Q116 -164 82 -109L158 -60Q184 -98 213.5 -116.0Q243 -134 281 -134Q345 -134 382.5 -89.5Q420 -45 420 21V67Q393 31 354.5 10.5Q316 -10 279 -10Q214 -10 163.0 20.5Q112 51 83.5 105.0Q55 159 55 228Q55 296 83.5 350.5Q112 405 163.0 435.5Q214 466 279 466Q320 466 358.0 446.0Q396 426 420 391V466H514V27Q514 -41 485.0 -97.0Q456 -153 403.0 -185.5Q350 -218 281 -218Z"/><path transform="translate(2558 0)" d="M69 466H164V392Q188 428 229.5 449.0Q271 470 315 469V380Q274 381 239.0 360.5Q204 340 184.0 305.0Q164 270 164 231V-6H69Z"/><path transform="translate(2900 0)" d="M55 228Q55 297 84.0 351.0Q113 405 164.5 435.5Q216 466 282 466Q347 466 390.0 439.0Q433 412 452.5 383.0Q472 354 477 338Q498 287 498 225Q498 211 497.0 202.5Q496 194 496 190H150Q159 139 196.5 106.0Q234 73 282 73Q337 73 366.5 94.5Q396 116 408 137L483 101Q463 56 411.5 23.5Q360 -9 282 -9Q216 -9 164.5 21.0Q113 51 84.0 105.0Q55 159 55 228ZM282 384Q232 384 195.5 351.5Q159 319 150 267H406Q399 320 369.0 352.0Q339 384 282 384Z"/><path transform="translate(3442 0)" d="M55 228Q55 297 84.0 351.0Q113 405 164.5 435.5Q216 466 282 466Q347 466 390.0 439.0Q433 412 452.5 383.0Q472 354 477 338Q498 287 498 225Q498 211 497.0 202.5Q496 194 496 190H150Q159 139 196.5 106.0Q234 73 282 73Q337 73 366.5 94.5Q396 116 408 137L483 101Q463 56 411.5 23.5Q360 -9 282 -9Q216 -9 164.5 21.0Q113 51 84.0 105.0Q55 159 55 228ZM282 384Q232 384 195.5 351.5Q159 319 150 267H406Q399 320 369.0 352.0Q339 384 282 384Z"/><path transform="translate(3984 0)" d="M289 383Q237 382 202.5 346.5Q168 311 169 260V-6H74V466H169V399Q192 429 227.5 447.0Q263 465 298 465Q348 465 392.0 442.5Q436 420 463.5 374.5Q491 329 491 264V-6H396V260Q396 316 367.0 349.5Q338 383 289 383Z"/>
+  </g>
+</svg>
