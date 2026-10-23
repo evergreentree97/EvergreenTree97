@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="820" height="250" viewBox="0 0 820 250" role="img" aria-labelledby="title description">
+  <title id="title">evergreen, 최상록</title>
+  <desc id="description">Three softly rounded green boughs arrive in sequence and settle into an evergreen tree beside the evergreen wordmark. The composition rests after its entrance. Reduced motion shows the finished mark.</desc>
+  <style>
+    .paper { fill: #f2f6f1; }
+    .wordmark { fill: #183d2b; font: 750 88px 'Arial', 'Helvetica Neue', sans-serif; letter-spacing: -5px; }
+    .word { animation: word-in 900ms cubic-bezier(.22, 1, .36, 1) 160ms both; }
+    .ground { fill: #184e31; opacity: .13; }
+    .stem { fill: url(#bark); }
+    .bough { animation: settle 1200ms cubic-bezier(.22, 1, .36, 1) both; }
+    .lower { --from-x: 32px; --from-y: 22px; --from-angle: 14deg; }
+    .middle { --from-x: -34px; --from-y: -16px; --from-angle: -18deg; animation-delay: 120ms; }
+    .upper { --from-x: 26px; --from-y: -38px; --from-angle: 20deg; animation-delay: 240ms; }
+    @keyframes word-in {
+      from { opacity: 0; transform: translateY(12px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes settle {
+      0% { opacity: 0; transform: translate(var(--from-x), var(--from-y)) rotate(var(--from-angle)) scale(.9); }
+      22% { opacity: 1; }
+      60% { transform: translate(0, -4px) rotate(-1.2deg) scale(1.025); }
+      80% { transform: translate(0, 1px) rotate(.4deg) scale(.995); }
+      100% { opacity: 1; transform: translate(0, 0) rotate(0) scale(1); }
+    }
+    @media (prefers-color-scheme: dark) {
+      .paper { fill: #101b15; }
+      .wordmark { fill: #e4f2e5; }
+      .ground { fill: #000; opacity: .28; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .word, .bough { animation: none; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="bark" x1="0" y1="0" x2="1" y2=".5">
+      <stop stop-color="#316b46"/>
+      <stop offset=".5" stop-color="#619668"/>
+      <stop offset="1" stop-color="#225c3a"/>
+    </linearGradient>
+    <linearGradient id="lower-leaf" x1=".12" y1="0" x2=".8" y2="1">
+      <stop stop-color="#8dd9a0"/>
+      <stop offset=".38" stop-color="#4eaf76"/>
+      <stop offset="1" stop-color="#1b714b"/>
+    </linearGradient>
+    <linearGradient id="middle-leaf" x1=".1" y1="0" x2=".82" y2="1">
+      <stop stop-color="#a6eab4"/>
+      <stop offset=".42" stop-color="#69c38b"/>
+      <stop offset="1" stop-color="#238657"/>
+    </linearGradient>
+    <linearGradient id="upper-leaf" x1=".1" y1="0" x2=".9" y2="1">
+      <stop stop-color="#c4f2bd"/>
+      <stop offset=".45" stop-color="#8bd49a"/>
+      <stop offset="1" stop-color="#3ca56c"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-.5" y="-1" width="2" height="3"><feGaussianBlur stdDeviation="5"/></filter>
+    <path id="lower-shape" d="M0-59 C-12-59-25-32-62-7 C-79 5-72 22-50 24 C-19 28 19 28 50 24 C72 22 79 5 62-7 C25-32 12-59 0-59Z"/>
+    <path id="middle-shape" d="M0-55 C-11-55-20-32-47-10 C-63 3-57 17-39 20 C-14 24 14 24 39 20 C57 17 63 3 47-10 C20-32 11-55 0-55Z"/>
+    <path id="upper-shape" d="M0-44 C-10-44-15-24-34-6 C-48 7-41 20-25 21 C-9 23 9 23 25 21 C41 20 48 7 34-6 C15-24 10-44 0-44Z"/>
+  </defs>
+  <rect class="paper" width="820" height="250" rx="24"/>
+  <g class="word"><text class="wordmark" x="40" y="154">evergreen</text></g>
+  <ellipse class="ground" cx="670" cy="218" rx="65" ry="7" filter="url(#soft-shadow)"/>
+  <g transform="translate(670 124)">
+    <rect class="stem" x="-10" y="52" width="20" height="38" rx="8"/>
+    <g transform="translate(0 54)">
+      <g class="bough lower">
+        <use href="#lower-shape" transform="translate(0 5)" fill="#145236"/>
+        <use href="#lower-shape" fill="url(#lower-leaf)"/>
+        <path d="M-57 4 C-28 12 17 17 51 5" fill="none" stroke="#c7efd0" stroke-opacity=".22" stroke-width="2" stroke-linecap="round"/>
+      </g>
+    </g>
+    <g transform="translate(0 8)">
+      <g class="bough middle">
+        <use href="#middle-shape" transform="translate(0 5)" fill="#236847"/>
+        <use href="#middle-shape" fill="url(#middle-leaf)"/>
+        <path d="M-42 4 C-21 11 14 14 38 5" fill="none" stroke="#dcf8d8" stroke-opacity=".28" stroke-width="2" stroke-linecap="round"/>
+      </g>
+    </g>
+    <g transform="translate(0 -34)">
+      <g class="bough upper">
+        <use href="#upper-shape" transform="translate(0 4)" fill="#4b9d67"/>
+        <use href="#upper-shape" fill="url(#upper-leaf)"/>
+        <path d="M-26 4 C-13 11 10 14 23 5" fill="none" stroke="#f0ffe4" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+      </g>
+    </g>
+  </g>
+</svg>
