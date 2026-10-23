@@ -1,3 +1,5 @@
+![evergreen, 최상록. 세 겹의 잎이 모여 상록수가 되는 모션그래픽](./assets/evergreen.svg)
+
 # 최상록
 
 **Android Engineer**
@@ -12,9 +14,11 @@ Android 앱의 구조를 설계하고, 주요 기능 개발과 출시 후 운영
 ### Vuddy
 
 Jetpack Compose 기반 멀티모듈 구조와 공통 기반을 설계하고, 인증, 미디어 플레이어, Sendbird 채팅 연동과 주요 화면을 개발했습니다.
+
 ### MOMENTICA
 
 3D 포토카드, 홈 콘텐츠 탐색, 영상 모닝콜을 개발했습니다.
+
 ### AI 캐릭터 서비스
 
 캐릭터 대화 모델의 데이터 정제, LoRA SFT, 자동 평가와 vLLM 서빙을 구현했습니다. 해당 모델을 사용하는 Android 앱에서는 SSE 채팅과 결제를 개발했습니다.
@@ -24,8 +28,6 @@ Jetpack Compose 기반 멀티모듈 구조와 공통 기반을 설계하고, 인
 ### [EasyShimmerCompose](https://github.com/evergreentree97/easy-shimmer-compose)
 
 Jetpack Compose에서 이미지, 텍스트와 Composable에 shimmer 효과를 적용하는 Kotlin 라이브러리입니다.
-
-[![콘텐츠의 로딩 영역에 은은한 shimmer가 두 번 지나간 뒤 멈추는 모션그래픽](./assets/shimmer.svg)](https://github.com/evergreentree97/easy-shimmer-compose)
 
 ### [K-Humanizer](https://github.com/evergreentree97/K-Humanizer)
 
