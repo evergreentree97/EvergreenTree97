@@ -1,4 +1,4 @@
-![evergreen, 최상록. 세 겹의 잎이 모여 상록수가 되는 모션그래픽](./assets/evergreen.svg)
+![evergreen, 최상록. 파란색 e 심벌의 두 획이 결합하는 모션과 SUIT 워드마크](./assets/evergreen-blue.svg)
 
 # 최상록
 
