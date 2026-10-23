@@ -1,4 +1,4 @@
-![evergreen, 최상록. 파란색 e 심벌의 두 획이 결합하는 모션과 SUIT 워드마크](./assets/evergreen-blue.svg)
+![evergreen, 최상록. 첫 글자 e의 파란색 두 획이 결합하는 SUIT 기반 워드마크](./assets/evergreen-blue.svg)
 
 # 최상록
 
