@@ -32,7 +32,9 @@
       <rect x="302" y="164" width="56" height="16" rx="8"/>
       <circle cx="748" cy="62" r="14"/>
     </g>
-    <clipPath id="content-clip"><use href="#content"/></clipPath>
+    <mask id="content-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="820" height="220">
+      <use href="#content" fill="white"/>
+    </mask>
     <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="white" stop-opacity="0"/>
       <stop offset=".5" stop-color="white" stop-opacity=".75"/>
@@ -45,7 +47,7 @@
   <rect class="surface" x=".5" y=".5" width="819" height="219" rx="20"/>
   <rect class="outline" x=".5" y=".5" width="819" height="219" rx="20"/>
   <use class="skeleton" href="#content"/>
-  <g clip-path="url(#content-clip)">
+  <g mask="url(#content-mask)">
     <g class="sweep">
       <rect class="highlight" width="260" height="220" mask="url(#soft-band)"/>
     </g>
